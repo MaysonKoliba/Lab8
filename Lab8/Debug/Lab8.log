@@ -1,4 +1,5 @@
-﻿  ICharacter.cpp
-  IRace.cpp
+﻿  CharacterFactory.cpp
+  ICharacter.cpp
   Generating Code...
+     Creating library C:\Users\mayso\Desktop\ThisSemester\DataStructures\Lab_8\Lab8\Debug\LAB8.lib and object C:\Users\mayso\Desktop\ThisSemester\DataStructures\Lab_8\Lab8\Debug\LAB8.exp
   Lab8.vcxproj -> C:\Users\mayso\Desktop\ThisSemester\DataStructures\Lab_8\Lab8\Debug\LAB8.dll

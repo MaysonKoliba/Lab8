@@ -4,7 +4,7 @@ class IRace
 {
 public:
 
-	IRace();
+	IRace(int hit, int armor, int bonus);
 	virtual ~IRace();
 
 	virtual void HitPointModification();
