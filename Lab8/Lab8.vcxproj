@@ -162,12 +162,16 @@
     <None Include="cpp.hint" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AdventuringParty.h" />
+    <ClInclude Include="CharacterFactory.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="ICharacter.h" />
     <ClInclude Include="IRace.h" />
     <ClInclude Include="Lab8.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AdventuringParty.cpp" />
+    <ClCompile Include="CharacterFactory.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="ICharacter.cpp" />
     <ClCompile Include="Lab8.cpp" />

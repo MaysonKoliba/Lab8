@@ -5,13 +5,17 @@ class ICharacter {
 
 public:
 
-	ICharacter(IRace* race) {}
+	ICharacter(IRace* race);
+	virtual ~ICharacter();
+	virtual void HitPointModification();
+	virtual void ArmorClassModification();
+	virtual void HitBonusModification();
 
-protected:
+private:
 
 	int hitPoint;
 	int armorClass;
-	int hitBonas;
+	int hitBonus;
 	IRace* m_race;
 };
 

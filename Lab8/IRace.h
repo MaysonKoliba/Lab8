@@ -5,18 +5,18 @@ class IRace
 public:
 
 	IRace();
-	~IRace();
+	virtual ~IRace();
 
-	void HitPointModification();
-	void ArmorClassModification();
-	void HitBonasModification();
+	virtual void HitPointModification();
+	virtual void ArmorClassModification();
+	virtual void HitBonusModification();
 
 
 private:
 
 	int hitPoint;
 	int armorClass;
-	int hitBonas;
+	int hitBonus;
 
 };
 
